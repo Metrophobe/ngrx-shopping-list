@@ -1,6 +1,16 @@
 # NgrxShoppingList
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.1.  A project aimed at showing you how to utilise ngrx store in conjunction to angular. NgRx is an open source library that provides reactive state management for your Angular applications. Inspired by Redux, NgRx provides a way to maintain data in your Angular application as a single source of truth. NgRx uses streams (derived from rxjs) to interact with a data store.    
+
+Branch (Master) - Illustrates the following concepts - 
+
+- ngrx/store 
+- models 
+- actions 
+- reducers
+- ngrx/dev-tools
+- ? (use of the optional operator)
+- ! (use of the non null operator)
 
 ## Development server
 
