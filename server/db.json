@@ -1,0 +1,20 @@
+{
+  "shopping": [
+    {
+      "id": "da5e799c-8c86-4bbb-869a-ac373593ee2d",
+      "name": "Pepsi"
+    },
+    {
+      "id": "1e0f8d62-fdfc-432c-ae12-6177b2ae4b34",
+      "name": "Coca Cola"
+    },
+    {
+      "id": "0ac12d82-a019-47c6-acaa-c6513dc6b928",
+      "name": "Sprite"
+    },
+    {
+      "id": "9181d442-189e-4158-8824-e8049973e0f3",
+      "name": "Fanta"
+    }
+  ]
+}

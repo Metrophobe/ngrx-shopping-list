@@ -7,6 +7,9 @@ import { ShoppingReducer } from './store/reducers/shopping.reducer';
 import { FormsModule } from '@angular/forms';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools'; //ng add @ngrx/store-devtools (run after you install redux devtools in chrome)
 import { environment } from '../environments/environment';
+import { HttpClientModule } from '@angular/common/http';
+import { EffectsModule } from '@ngrx/effects';
+import { ShoppingEffects } from './store/effects/shopping.effects';
 
 @NgModule({
   declarations: [
@@ -14,10 +17,12 @@ import { environment } from '../environments/environment';
   ],
   imports: [
     BrowserModule,
+    HttpClientModule,
     FormsModule,
     StoreModule.forRoot(
       {shopping:ShoppingReducer}, {}),
-    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production })//ngrx devtools
+    StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
+    EffectsModule.forRoot([ShoppingEffects])//ngrx devtools
   ],
   providers: [],
   bootstrap: [AppComponent]
