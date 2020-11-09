@@ -17,6 +17,7 @@ Branch (Master) - Illustrates the following concepts -
 - use of effects (save you from using subscribe )
 - use of json-server
 - use of rxjs operators , of , pipe , mergeMap , catchError , ofType
+- delay
 
 
 ## Development server
